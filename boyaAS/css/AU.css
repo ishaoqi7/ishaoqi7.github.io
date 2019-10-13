@@ -1,0 +1,449 @@
+*{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        width:100%;   /*1898px;*/
+        /*max-width: 1898px;*/
+        height:100%;  /*1816px;*/
+    }
+    
+     .headimg{
+        width:100%;
+        height:254px;
+        background-image: url(../img/imgAU/aboutbanner.jpg);
+        background-size: 1608px 254px;
+        background-repeat:repeat-x;
+    }
+   /* header{
+        width: 100%;
+        height: 60px;
+        background-color: lightgray;
+    }*/
+     	ul,li {
+            list-style: none;
+        }
+
+        .head .container a{
+            text-decoration: none;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            height: 0;
+            visibility: hidden;
+            clear: both;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+        }
+		a{
+			text-decoration: none;
+		}
+        /*头部CSS开始*/
+            header{
+        width: 100%;
+        height: 58px;
+        background-color: #191d3a;
+        overflow: hidden;
+    }
+     .container {
+            width: 1000px;
+            margin: 0 auto;
+        }
+    .container .img1{
+        margin: 10px 38px 0 21px;
+        float: left;
+    }
+    .container .ul1{
+        list-style: none;
+        margin-left:45px;
+    }
+    .container .ul1 li a{
+        width: 85px;
+        float: left;
+        font:14px/58px "微软雅黑";
+        color:#818496;
+        text-align: center;
+        border-right: 1px solid #252947;
+    }
+    .container .ul1 .li3 a{
+        color: white;
+        background-color: #252947;    
+    }
+    .container .ul1 li:hover a{
+        color:white; 
+    }
+    .container button{
+        float: left;
+        margin-top: 12px;
+        margin-left: 10px;
+        text-decoration: none;
+        font-size:14px;
+        line-height: 32px;
+        border: 1px solid #3aca7a;
+        padding: 0 10px 0 10px;
+        border-radius: 5px;
+        background-color: #3aca7a;
+        color:white; 
+    }
+    .container .span1{
+        /*vertical-align: center;*/
+        display: block;
+        padding-top: 20px;
+        font:14px/14px "微软雅黑";
+    }
+    .container .span1 a{
+        text-decoration: none;
+        color:#818496;
+    }
+    .container .span1 a:first-child{
+        color: #3aca7a;
+    }
+    /*头部结束*/
+    .area{
+         width:1000px;
+         margin: 0 auto;
+    }
+    .area .location{
+        width: 100%;
+        line-height: 28px;
+        padding: 25px 0 25px 0;
+        border-bottom: 1px solid lightgray;
+        color: #444866;
+    }
+    .location h3{
+        padding: 0px 0 0 30px;
+        font:22px/28px "微软雅黑";
+        line-height: 28px;
+        /*font-weight: bold;*/
+        background-image: url(../img/imgAU/location.png);
+        background-position:  0px  -45px;
+        background-repeat: no-repeat;
+    }
+    .location .qlink{
+        display: block;
+        float: right;
+        font:14px/28px SimSun;
+    }
+    .qlink label,em,a{
+        vartical-align:middle;
+        display:inline-block;
+    } 
+    .qlink em{
+        width:8px; 
+        height:8px;
+        background-image:url(../img/imgAU/icon.png); 
+        background-position: 0px -150px;
+    }    
+    .qlink a{
+        display:inline-block;
+        text-decoration: none;
+        color:#444866;
+    }
+    .qlink a.home{
+        width:15px;
+        height:13px;
+        background-image: url(../img/imgAU/home.png);
+        background-position: 0 0;
+    }
+    .area{
+    	overflow: hidden;
+    }
+    .area .divl{
+        float: left;
+        padding-top: 40px;
+        width: 230px;
+        height: 520px;
+    }
+    .area .divr{
+        float: right;
+        padding-top: 40px;
+        width: 732px;
+    }
+    .divl ul li{
+        list-style: none;
+        height:56px;
+        border-bottom: 1px solid lightgray; 
+        padding-top: 15px;
+        font:12px/12px "微软雅黑";
+        color: #444866;
+    }
+    .divl ul li:hover{
+        color: #38b774;
+    }
+    ul.nav1 li.current {
+        color: #38b774;
+    }
+    ul.nav1 li  h4{
+        font:16px/16px "微软雅黑";
+        font-weight: bold;
+        padding-bottom:10px; 
+    }
+    ul.nav1 li.current  h4{
+        background: url(../img/imgAU/arrow.png) no-repeat right center;
+    }
+
+    .divr .intr p{
+        padding-bottom: 30px;
+        text-indent: 2em;
+        font:12px/32px "Hiragino Sans GB";
+        color: #444866;
+    }
+    .hostory{
+        padding-bottom: 20px;
+    }
+    .history dl dt{
+        padding-left: 20px;
+        font:18px/36px "微软雅黑";
+        font-weight: bold;
+        color: #444866;
+        background: url(../img/imgAU/icon.png) no-repeat 0 -85px;
+    }
+    .history dl dd p{
+        /*padding-bottom: 30px;*/
+        display: block;
+        text-indent: 20px;
+        /*line-height: 32px;*/
+        font:12px/32px "微软雅黑";
+        color: #444866;
+    }
+    .divr .distr h2{
+        text-align: center;
+        font:24px/48px "微软雅黑";
+        font-weight: bold;
+        color: #444866;
+    }
+    .divr .distr h3{
+        text-align: center;
+        padding-right: 20px;
+        margin-bottom:15px; 
+        font:18px/27px "微软雅黑";
+        color: #c7d6e7;
+    }
+    .divr .distr p{
+        text-indent: 2em;
+        margin-bottom: 30px;
+        font:14px/41px "微软雅黑";
+        color: #444866;
+    }
+    .divr .distr ul{
+        /*设置为block后没设置长宽，人无法设置padding，margin*/
+
+        display: block; 
+        width: 730px;
+        height: 130px;
+        padding-bottom: 40px;
+    }
+    .divr .distr ul li{
+        width:180px;
+        height: 45px;
+        margin-top: 20px;
+        list-style-type: none;
+        float: left;
+    }
+    .culture ul{
+        list-style: none;
+         background:url(../img/imgAU/cul_icon.png) no-repeat ;
+    }
+    .culture ul li{
+        width:732px;
+        height:101px;
+        padding-bottom: 70px;
+        margin-bottom: 78px;
+
+    }
+     .culinfo h5{
+        padding-left: 160px;
+        padding-top: 10px;
+        font-size: 24px;
+        margin-bottom: 12px;
+        color:#444866;
+    }
+    .culinfo h5 em{
+        display: inline-block;
+        padding-right: 20px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: bold;
+    }
+    .cul1 .culinfo h5 em{
+        color: #f39800;
+    }
+    .cul2 .culinfo h5 em{
+        color: #38b774;
+    }
+    .cul3 .culinfo h5 em{
+        color: #6672ca;
+    }
+    .cul4 .culinfo h5 em{
+        color: #da6c54;
+    }
+    .culture ul li .culinfo p{
+         padding-left: 160px;
+         font: 14px/27px "微软雅黑";
+          color:#444866;
+    }
+    .contact dl dt{
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 2;
+    }
+    .contact dl dt span{
+        font-size: 18px;
+        padding-left: 10px;
+       color :#c7d6e5;
+    }
+    
+    .contact .dd{
+        display: block;
+        width: 732px;
+    }
+    .dd1 ul{
+        display: block;
+        padding-bottom: 20px;
+        border-bottom:1px solid lightgray;
+    }
+    .dd1 .ul1 li{
+        display: block;
+        width: 732px;
+        height: 71px;
+        margin-bottom: 15px;
+        position: relative;
+    }
+    .dd1 .ul1 li .div11,.div21{
+        position:absolute;
+        left: 0px;
+    }
+    .dd1 .ul1 li div img{
+        display: block;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    .dd1 .ul1 li div p{
+        padding-left: 110px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .ul2{
+        list-style: none;
+        overflow: hidden;
+        padding-bottom: 20px;
+        border-bottom:1px solid lightgray; 
+    }
+    .ul2 .li11{
+        margin-top: 10px;
+        padding-left: 20px;
+        float: left;
+        background:url(../img/imgAU/icon.png) no-repeat 0 -598px ;
+    }
+    .ul2 .li12{
+        margin-top: 10px;
+        padding-left: 20px;
+        float: right;
+        background:url(../img/imgAU/icon.png) no-repeat 0 -244px ;
+    }
+    .addr{
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+ /*   div.toTop a{
+        width: 68px;
+        height: 29px;
+        position: fixed;
+        right: 5px;
+        bottom: 30px;
+        background: url(img/top.png) no-repeat;
+    }
+    .toTop a:hover{
+        background: url(img/top.png) no-repeat 0 -40px;
+    }*/
+
+   /*尾部*/
+    .announce {
+            background-color: #252947;
+            padding: 30px 0;
+			
+        }
+
+        .announce p {
+            font-size: 13px;
+            line-height: 24px;
+            width: 1000px;
+            margin:0 auto;
+            color: #6c6e7e;
+        }
+
+        .foot {
+            background-color: #191d3a;
+            color: #6c6e7e;
+            padding: 40px 0;
+            font-size: 13px;
+        }
+
+        .foot span a {
+            color: #6c6e7e;
+            text-decoration: none;
+        }
+
+        .foot span a:hover {
+            color: #ffffff;
+        }
+
+        .foot span a:first-child {
+            border-right: 1px solid #6c6e7e;
+            padding-right: 10px;
+        }
+
+        .foot span a:last-child {
+            padding-left: 10px;
+        }
+
+        .foot .right {
+            position: relative;
+            padding-right: 50px;
+        }
+
+        .gov {
+            position: absolute;
+            right: 0;
+            top: -6px;
+        }
+
+        .gov img {
+            width: 40px;
+            height: 50px;
+        }
+
+        /* 尾部结束 */
+
+        /* 返回头部 */
+        .gotop {
+            display: block;
+            position: fixed;
+            right: 15px;
+            bottom: 75px;
+            width: 68px;
+            height: 29px;
+            background: url(../img/imgAU/top.png) no-repeat 0 -40px;
+            z-index: 999;
+            color: #444866;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .gotop:hover {
+            background-position: 0 0;
+            color: #33b972;
+        }
